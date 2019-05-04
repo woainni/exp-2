@@ -1,0 +1,19 @@
+#include<conio.h>
+	#include <iostream>
+	using namespace std;
+	int main()
+	    {
+	        int x, y, sum; 
+	        cout << "input first number" << endl;
+	        cin >> x;
+	        cout << "input last number" << endl;
+	        cin >> y;
+	        
+	        for ( int number = x; number <= y; number += x )
+	        {
+	           
+	           sum += number; 
+	        }
+	        cout << "The summation from "<<x<<" to "<<y<<" is " << sum << endl; 
+	        return 0;
+}
